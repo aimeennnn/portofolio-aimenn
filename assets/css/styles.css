@@ -762,7 +762,8 @@ img {
     padding: 2rem;
   }
   .perfil__img{
-    width: 750px;
+    width: 1050px;
+    transform: translateY(2rem);
   }
   .perfil__data{
     width: 370px;
