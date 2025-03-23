@@ -313,9 +313,9 @@ img {
 }
 
 .about__img{
-  width: 290px;
+  width: 270px;
   justify-self: center;
-  transform: translateY(-1.4rem);
+  transform: translateY(-.1rem);
 }
 
 .about__note{
@@ -762,7 +762,7 @@ img {
     padding: 2rem;
   }
   .perfil__img{
-    width: 450px;
+    width: 750px;
   }
   .perfil__data{
     width: 370px;
@@ -787,7 +787,7 @@ img {
     height: 201px;
   }
   .about__img{
-    transform: translateY(-1rem);
+    transform: translateY(-.1rem);
   }
 
   .skills{
@@ -846,6 +846,47 @@ img {
     grid-template-columns: 620px;
   }
   .contact__group{
-    grid-template-columns: ;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .contact__area{
+    height: 15rem;
+  }
+  .contact__button{
+    width: max-content;
+    justify-self: center;
+  }
+
+  .footer{
+    padding-top: 3rem;
+  }
+  .footer__link{
+    column-gap: 3rem;
+  }
+  .footer__copy{
+    margin-top: 7rem;
+  }
+}
+@media screen and (min-width: 1500px) {
+  .nav{
+    width: max-content;
+    height: max-content;
+    padding: 2rem 1rem;
+    left: initial;
+    right: 3rem;
+    top: 0;
+    bottom: 0;
+    margin-block: auto;
+  }
+  .nav__list{
+    flex-direction: column;
+    row-gap: 1.25rem;
+  }
+
+  .footer{
+    padding-block: 3rem;
+  }
+
+  .scrollup{
+    right: 4rem;
   }
 }
